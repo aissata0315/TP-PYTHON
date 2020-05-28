@@ -5,18 +5,18 @@ mois = input("donnez le mois")
 mois = int(mois)
 annee = input("donnez l'annee")
 annee = int(annee)
-liste1 = {"01","03","05","07","08","10","12"}
-for i in liste1 : 
+if mois == 1 or mois == 3 or mois == 5 or mois == 7 or mois == 8 or mois == 10 or mois == 11 :
     if jour <=31 : 
         print("date valide")
-    else:
+    else :
         print("date invalide")
-liste2 = {"04,06,09,11"}
-for i in liste2 : 
+if mois == 4 or mois == 6 or mois == 9 or mois == 11 :
     if jour <=30 :
         print("date valide")
     else:
         print("date invalide")
-if mois == "02" and jour<=29 :
+if mois == 2 and jour<=29 :
     print("date valide")
+else:
+    print("date invalide")
 
