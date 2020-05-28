@@ -1,6 +1,8 @@
  # coding:
-liste = [1,2,3,4,5]
 Somme = 0
-for i in liste:
-    Somme = Somme+i
-print("la somme est:",Somme)
+i=1
+while i <=5:
+    nombre = input("Entrez le entier\n")
+    Somme = Somme+nombre
+    i += 1
+print("la somme des entiers est:",Somme)
